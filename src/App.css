@@ -1,24 +1,39 @@
 body {
   font-family: Arial;
-  background-color: #000000;
+  background-color: #1e3a5f;
 }
 
 .container {
   width: 400px;
   margin: 100px auto;
   padding: 20px;
-  background-color: white;
+  background-color: #dbeafe;
   text-align: center;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #1e3a5f;
 }
 
 input {
   padding: 10px;
   width: 250px;
+  border: 1px solid #999;
+  border-radius: 5px;
 }
 
 button {
   padding: 10px;
   margin-left: 5px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #1d4ed8;
 }
 
 p {
